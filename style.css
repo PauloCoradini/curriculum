@@ -1,0 +1,22 @@
+body {
+    font-family: 'Zilla Slab', serif;
+}
+.cabecalho {
+    width: auto;
+}
+.lista-cabecalho {
+    position: relative;
+    width: 80%;
+    text-align: right;
+}
+ul a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+ul li {
+    display: inline;
+    padding: 0 0 0 2em;
+}
