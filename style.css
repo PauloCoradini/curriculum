@@ -3,20 +3,38 @@ body {
 }
 .cabecalho {
     width: auto;
+    background: #00a2ff;
+}
+.img-cabecalho {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 .lista-cabecalho {
     position: relative;
     width: 80%;
     text-align: right;
 }
-ul a {
+.lista-cabecalho a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
 }
-ul li {
+.lista-cabecalho li {
     display: inline;
     padding: 0 0 0 2em;
+}
+main {
+    width: 100%;
+    background: linear-gradient(#00a2ff, white) ;
+}
+.corpo-sobre {
+    padding: 40px 0 0 20px;
+}
+.mapa {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
 }
